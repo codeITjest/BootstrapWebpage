@@ -1,7 +1,7 @@
 /* About Us Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background-image: url(../img/bg.jpg);
   padding: 80px 0;
 }
 
@@ -12,38 +12,42 @@
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: #000000;
 }
 
 #about .about-container .title {
-  color: #333;
+  color: red;
+  font-family: Helvetica Neue;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 48px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
   #about .about-container .title {
     padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
 #about .about-container p {
   line-height: 26px;
+  color: white;
 }
 
 #about .about-container p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  background: black;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  background: white;
   width: 64px;
   height: 64px;
   display: flex;
@@ -69,13 +73,23 @@
 }
 
 #about .about-container .icon-box .title a {
-  color: #111;
+  color: red;
+  font-family: Helvetica Neue;
 }
 
 #about .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  color: #fff;
+}
+
+/* Jumbotron Section*/
+.jumbotron {
+  color: red;
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  background-image: url(../img/jumbobg.jpg);
 }
 
 /* Portfolio Section
@@ -168,4 +182,3 @@
 #book .book-item:hover img {
   top: -30px;
 }
-
